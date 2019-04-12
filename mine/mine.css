@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    color: #333;
+}
+body{
+    background: #e7e7e7;
+    
+}
+a{
+    text-decoration: none;
+}
+.user_pic{
+    padding:30px 5px;
+    /* background: #e7e7e7; */
+    background: #fff;
+}
+.user_pic img{
+    float: left;
+    padding:0px 30px;
+}
+.user{
+    overflow: hidden;
+   
+}
+.sign{
+    overflow: hidden;
+    text-overflow: ellipsis;/*文本溢出显示省略号*/
+    white-space:nowrap;/*文本不会换行*/
+}
+.cont1{
+    margin:10px auto;
+    /* background: #e7e7e7; */
+    background: #fff;
+}
+.cont1>div {  
+    display: inline-block;
+    width:32%;
+}
+.cont1 p{
+    text-align: center;
+}
+.cont1 a{
+    cursor: pointer;
+    height:48px;
+    line-height: 48px;
+}
+.cont2{
+    margin-top:20px;
+}
+.cont2 .item{
+    /* background: #e9e9e9; */
+    background: #fff;
+    margin-bottom: 1px;
+    height: 62px;
+}
+.cont2 img{
+    width:42px;
+    height:42px;
+    padding:10px 30px;
+    float: left;
+}
+.cont2 .item_right p{
+    padding:10px 20px;
+    line-height: 42px;
+    height: 42px;
+    font-size: 20px;
+
+}
+.cont2 .item_right span{
+   float:right;
+   color: #807f7f;
+}
+footer{
+    width:100%;
+    height:auto;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background:#f3f3f3;
+    border-top:1px solid #e9e9e9;
+}
+footer ul li{
+    float: left;
+    width:25%;
+    list-style: none;
+}
+footer ul img
+{
+    padding:6px 0;
+    width:30px;
+    height:30px;
+    display: block;
+    margin:0 auto;
+}
+footer p{
+    text-align: center;
+}
